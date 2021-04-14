@@ -56,3 +56,24 @@ if (firstName) {
  } else {
      console.log('SLOW DOWN');
  }
+
+ //loops
+ //while loop
+
+ let count = 0;
+
+ while(count !== 10) {
+     console.log(count);
+     count ++;
+ }
+
+let countDown = 10;
+
+ while(countDown >= 0) {
+     console.log("Countdown:", countDown);
+     countDown --;
+ };
+
+ for(let i=0; i < countDown; i++) {
+     console.log(countDown)
+ };
